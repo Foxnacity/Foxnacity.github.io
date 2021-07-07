@@ -1,10 +1,10 @@
-import Header from "./components/header";
+import Layout from "./components/Layout";
 
 function App() {
   return (
-    <div className="container">
-      <Header prop2='pasta' prop3='k'>Tasktistics</Header>
-    </div>
+    <Layout title="Home | Foxnacity" author="Foxnacity">
+      Hello There boys and girls
+    </Layout>
   );
 }
 
